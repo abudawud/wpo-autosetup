@@ -1,0 +1,9 @@
+print_info(){
+    echo -e "\e[1;93m+ $1\e[0m"
+    sleep 1
+}
+
+print_error(){
+    echo -e "\e[1;91m+ $1\e[0m"
+    sleep 1
+}
